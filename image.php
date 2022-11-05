@@ -13,7 +13,7 @@ use Orhanerday\OpenAi\OpenAi;
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
-    ob_clean();
+    if (ob_get_contents()) ob_end_clean();
     $open_ai_key = getenv('OPENAI_API_KEY');
     $open_ai = new OpenAi($open_ai_key);
 
