@@ -5,6 +5,17 @@
 * Edit Image
 * Create Image Variations
 
+## Using Docker
+
+Build the image
+```shell
+docker build -t dalle-examples .
+```
+Run the app
+```shell
+docker run -p 8000:8000 -e OPENAI_API_KEY=sk-rf... dalle-examples
+```
+
 ## Getting started 
 Before you get starting, you should set OPENAI_API_KEY with the following commands;
 
