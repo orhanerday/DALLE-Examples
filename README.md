@@ -11,15 +11,15 @@ Build the image
 ```shell
 docker build -t dalle-examples .
 ```
-or pull from Docker Hub
+*or* pull from Docker Hub
 
 ```shell
-docker pull orhan55555/dallephp
+docker pull orhan55555/chatgpt
 ```
 
 Run the app
 ```shell
-docker run -p 8000:8000 -e OPENAI_API_KEY=sk-rf... dalle-examples
+docker run -p 8000:8000 -e OPENAI_API_KEY=sk-o7hL4nCDcjw chatgpt
 ```
 
 ## Getting started 
